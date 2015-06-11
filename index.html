@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>App Name</title>
+</head>
+<body>
+
+<a href="https://play.google.com/store/apps/details?APP_ID">
+  <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/pt-br_generic_rgb_wo_45.png" />
+</a>
+
+<a href="https://itunes.apple.com/us/app/cbc-2015/APP_ID" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+
+<a href="http://www.windowsphone.com/en-us/store/app/APP_ID"><img src="https://i-msdn.sec.s-msft.com/dynimg/IC795461.png" height="40" width="154" alt=""></a>
+
+	<script>
+		var isMobile = {
+			Android: function() {
+				return /Android/i.test(navigator.userAgent);
+			},
+
+			iOS: function() {
+				return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+			},
+
+			Windows: function() {
+				return /IEMobile/i.test(navigator.userAgent);
+			}
+		};
+
+		if(isMobile.Android()){
+			location.replace("market://details?id=com.lcomunicacao.cbc2015");
+		}else if(isMobile.iOS()){
+			location.replace("itms-apps://itunes.apple.com/us/app/cbc-2015/id975883150?mt=8");
+		}else if(isMobile.Windows()){
+			location.replace("contoso:ShowProducts?CategoryID=212ca227-e5af-4af5-86e3-ec667846c862");
+		}
+
+	</script>
+</body>
+</html>
