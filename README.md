@@ -1,47 +1,19 @@
 # Redirect to App Stores
 
-{Write a project description}
+Lib to redirect the device to our store.
 
+
+TRY!!!
 ![QRCode](qr_code.jpg "QRCode que envia para o link http://tiagoporto.github.io/redirect-to-app-stores/")
 
 
 ## Table of Contents
 
-* [Features](#features)
-* [Folder Structure](#folder-structure)
 * [Dependencies](#dependencies)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](license)
 
-## Features
-
-* {List all the project features}
-
-## Folder Structure
-
-```
-./
-├───┐
-│   ├─
-│   │
-│   └─
-│      │
-│      ├─
-│      │
-│      └─
-│         │
-│         ├─
-│         │
-│         └─
-│            │
-│            ├─
-│            │
-│            └─
-├──
-└──
-```
 
 ## Dependencies
 
@@ -55,10 +27,6 @@
 ## Usage
 
 {Write usage instructions}
-
-## Credits
-
-{Write credits}
 
 ## License
 
