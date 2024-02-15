@@ -3,6 +3,7 @@
 Redirect the device to the respective store.
 
 TRY!!!
+
 ![QRCode](qr_code.jpg "Acess app store")
 
 or access [https://tiagoporto.github.io/redirect-to-app-stores/](https://tiagoporto.github.io/redirect-to-app-stores/)
